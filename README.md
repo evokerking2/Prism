@@ -174,9 +174,6 @@ server {
     ssl_session_timeout 1d;
     ssl_session_cache shared:SSL:50m;
     ssl_session_tickets off;
-    
-    # Modern configuration
-    ssl_dhparam /path/to/dhparam.pem;
 }
 ```
 

@@ -6,10 +6,9 @@ const mime = require('mime-types');
 const PrismModule = {
   name: "React Panel",
   api_level: 3,
-  target_platform: "0.5.0-alpha1"
+  target_platform: "0.5.0-alpha2"
 };
 
-// List of file extensions to process for replacements
 const PROCESSABLE_EXTENSIONS = ['.html', '.js', '.css', '.json'];
 
 async function processFileContent(content, userinfo) {
